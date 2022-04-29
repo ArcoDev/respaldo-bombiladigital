@@ -142,9 +142,33 @@ $mainnav = array(
 
 		'target'=>'',
 
-		'class'=>'',
+		'class'=>'submenu__wrapper',
 
-		'subnav'=>false
+		'subnav'=>true,
+
+		'nav' => array(
+			array(
+				'link'=>'/servicios.php',
+				'html'=>'Diseño y Programación',
+				'target'=>'',
+				'class'=>'',
+				'subnav'=>false
+			),
+			array(
+				'link'=>'/integracion.php',
+				'html'=>'Integración y Optimización',
+				'target'=>'',
+				'class'=>'',
+				'subnav'=>false
+			),
+			array(
+				'link'=>'/consultoria.php',
+				'html'=>'Consultoría',
+				'target'=>'',
+				'class'=>'',
+				'subnav'=>false
+			),		
+		)
 
 	),
 
@@ -153,6 +177,20 @@ $mainnav = array(
 		'link'=>'/#quienes-somos',
 
 		'html'=>'Quiénes Somos',
+
+		'target'=>'',
+
+		'class'=>'',
+
+		'subnav'=>false
+
+	),
+
+	array(
+
+		'link'=>'/portafolio.php',
+
+		'html'=>'Portafolio',
 
 		'target'=>'',
 
@@ -205,20 +243,6 @@ $mainnav = array(
 			),
 
 		),
-
-	),
-
-	array(
-
-		'link'=>'/#portafolio',
-
-		'html'=>'Portafolio',
-
-		'target'=>'',
-
-		'class'=>'',
-
-		'subnav'=>false
 
 	),
 
