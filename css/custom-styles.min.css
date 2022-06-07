@@ -6713,10 +6713,9 @@ a.ui-button:active {
 
 
 /* Grid Portafolio */
-.portafolio {
+/* .portafolio {
     width: 100%;
     height: auto;
-    /* background: #2F2F2F; */
     padding: 8rem 0 5rem 0;
 }
 
@@ -6740,7 +6739,7 @@ a.ui-button:active {
     overflow: hidden;
 }
 
-/* Mobile */
+ Mobile 
 @media screen and (min-width: 321px) and (max-width: 1023px) {
     .portafolio {
         padding: 5rem 0 1rem 0;
@@ -6756,7 +6755,7 @@ a.ui-button:active {
     }
 }
 
-/* Monitor */
+Monitor 
 @media screen and (min-width: 1440px) {
     .container-portafolio{
         gap: 3rem;
@@ -6820,7 +6819,6 @@ a.ui-button:active {
     background: #000000be;
     cursor: pointer;
     opacity: 0;
-    /* z-index: 2; */
 }
 
 .overlay-portafolio p {
@@ -6832,5 +6830,4 @@ a.ui-button:active {
 .box-portafolio img:hover {
     transform: scale(1.5);
 }
-
-/*# sourceMappingURL=custom-styles.min.css.map */
+sourceMappingURL=custom-styles.min.css.map */

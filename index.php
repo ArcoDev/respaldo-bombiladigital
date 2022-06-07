@@ -141,14 +141,13 @@ if($is_mobile){
 				</div>
 			</section>
 
-			<section class="home__services">
+			<!-- <section class="home__services">
 				<div class="anchor" id="servicios"></div>
 				<div class="container">
 					<div class="<?=$animation_type?>" data-200="transform:translateY(50px);opacity:0"
 						data-700="transform:translateY(0px);opacity:1">
 						<h1>Servicios para empresas</h1>
 					</div>
-					<!-- Desarrollo Web -->
 					<div class="service--wrapper">
 						<div class="row-flex vc">
 							<div class="col-lg-6 img">
@@ -175,7 +174,6 @@ if($is_mobile){
 							</div>
 						</div>
 					</div>
-					<!-- SEO -->
 					<div class="service--wrapper">
 						<div class="row-flex vc">
 							<div class="col-lg-5 service__text-right">
@@ -203,7 +201,6 @@ if($is_mobile){
 							</div>
 						</div>
 					</div>
-					<!-- Hosting & Domain -->
 					<div class="service--wrapper">
 						<div class="row-flex vc">
 							<div class="col-lg-5 img">
@@ -230,7 +227,6 @@ if($is_mobile){
 							</div>
 						</div>
 					</div>
-					<!-- Consultoría -->
 					<div class="service--wrapper">
 						<div class="row-flex vc">
 							<div class="col-lg-7 service__text-right">
@@ -272,7 +268,7 @@ if($is_mobile){
 						</svg>
 					</h2>
 				</div>
-			</section>
+			</section> -->
 			<section class="home__how">
 				<div class="container">
 					<h2 class="animation-scroll-text <?=$animation_type?>"
@@ -315,6 +311,8 @@ if($is_mobile){
 					</div>
 				</div>
 			</section>
+			
+
 			<section class="home__about">
 				<div class="anchor" id="quienes-somos"></div>
 				<div class="container">
