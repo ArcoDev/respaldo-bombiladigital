@@ -148,33 +148,47 @@ $mainnav = array(
 
 		'nav' => array(
 			array(
-				'link'=>'/servicios.php',
-				'html'=>'Diseño y Programación',
+				'link'=>'/diseno.php',
+				'html'=>'Diseño de experiencias web',
 				'target'=>'',
 				'class'=>'',
 				'subnav'=>false
 			),
 			array(
-				'link'=>'/integracion.php',
-				'html'=>'Integración y Optimización',
+				'link'=>'/programacion.php',
+				'html'=>'Programacion web',
 				'target'=>'',
 				'class'=>'',
 				'subnav'=>false
 			),
 			array(
-				'link'=>'/consultoria.php',
-				'html'=>'Consultoría',
+				'link'=>'/posicionamiento.php',
+				'html'=>'Posicionamiento en buscadores',
 				'target'=>'',
 				'class'=>'',
 				'subnav'=>false
-			),		
+			),
+			array(
+				'link'=>'/dominio.php',
+				'html'=>'Dominio y hosting',
+				'target'=>'',
+				'class'=>'',
+				'subnav'=>false
+			),
+			array(
+				'link'=>'/desarrollo.php',
+				'html'=>'Desarrollo de tiendas online',
+				'target'=>'',
+				'class'=>'',
+				'subnav'=>false
+			),			
 		)
 
 	),
 
 	array(
 
-		'link'=>'/#quienes-somos',
+		'link'=>'/quienes-somos.php',
 
 		'html'=>'Quiénes Somos',
 
@@ -188,7 +202,7 @@ $mainnav = array(
 
 	array(
 
-		'link'=>'/portafolio.php',
+		'link'=>'/#portafolio',
 
 		'html'=>'Portafolio',
 

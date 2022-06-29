@@ -1,14 +1,14 @@
 <?php
 $abs_path = $_SERVER['DOCUMENT_ROOT'];
 include("$abs_path/includes/config.php");
-$page_class="home loading";
+$page_class="J & C TECHNOLOGY";
 $city=" en Puebla";
 $city_keyword=strtolower($city);
 $is_keywords_city=false;
 if(!$is_keywords_city){
 	$city='';
 }
-$page_title="Desarrollo de Páginas Web Profesionales$city | Marketing Digital | E-commerce | $brand_name";
+$page_title="$brand_name | $page_class";
 $page_desc="Bombilla Digital es una agencia creativa formada por un equipo de profesionales con más de 8 años de experiencia, ayudamos a nuestros clientes a ser relevantes en el mundo digital y a tener presencia online para lograr sus objetivos comerciales.";
 $keywords_city=array(
 	'paginas web',
@@ -107,6 +107,7 @@ if($is_mobile){
     <!-- Header -->
     <?php include("$abs_path/includes/$lang/header-second.php");?>
     <!-- / End Header -->
+
     <section class="container-site">
         <div class="box-container">
             <div class="info-project">

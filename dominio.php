@@ -1,15 +1,15 @@
 <?php
 $abs_path = $_SERVER['DOCUMENT_ROOT'];
 include("$abs_path/includes/config.php");
-$page_class="home loading";
+$page_class="Domino y Hosting";
 $city=" en Puebla";
 $city_keyword=strtolower($city);
 $is_keywords_city=false;
 if(!$is_keywords_city){
 	$city='';
 }
-$page_title="Desarrollo de Páginas Web Profesionales$city | Marketing Digital | E-commerce | $brand_name";
-$page_desc="Bombilla Digital es una agencia creativa formada por un equipo de profesionales con más de 8 años de experiencia, ayudamos a nuestros clientes a ser relevantes en el mundo digital y a tener presencia online para lograr sus objetivos comerciales.";
+$page_title="$brand_name | $page_class";
+$page_desc="El dominio y hosting son dos elementos básicos e indispensables para tener un sitio web, al dominio podemos definirlo como el nombre o URL con el que podrán localizar tu sitio web en.";
 $keywords_city=array(
 	'paginas web',
 	'paginas web profesionales',
@@ -109,26 +109,13 @@ if($is_mobile){
             Bombilla<span>Digital</span>
         </p>
     </div>
-    <div class="title-services">
-        <h2>Nuestros Servicios</h2>
-        <div class="icon-flex">
-            <svg>
-                <use xlink:href="#svg-icon-web"></use>
-            </svg>
-            <h3>Diseño</h3>
-        </div>
-        <p>Tu tienda online con un diseño personalizado, alineado a tu marca e identidad corporativa.</p>
-    </div>
-    <div class="footer-services">
-        <div class="icon-flex">
-            <svg>
-                <use xlink:href="#svg-icon-web"></use>
-            </svg>
-            <h3>Programación</h3>
-        </div>
-        <p>Tu tienda online alineada a tus objetivos comerciakes. Cada compañia es diferente, no hay un estándar,
-            programamos la funcionalidad a la medida.</p>
-    </div>
+</section>
+<section class="services-info">
+	<h1 class="text-center">Dominio y Hosting</h1>
+	<p class="services-desc">El <span>dominio y hosting</span> son dos elementos básicos e indispensables para tener un sitio web, al dominio podemos definirlo como el nombre o URL con el que podrán localizar tu sitio web en internet ejemplo <a>www.tuempresa.com</a></p>
+	<p class="services-desc">El <span>Hosting o alojamiento web,</span>es el espacio virtual donde se almacenará tus archivos web, es por ello que jamás podrás prescindir de estos servicios si deseas mantener online tu sitio web, en Bombilla Digital te asesoramos y te brindamos los mejores planes de alojamiento anual para mantener tu sitio web en línea y funcionando de manera efectiva.</p>
+	<h3 class="services-desc">Certificado de seguridad</h3>
+	<p class="services-desc">Un certificado de seguridad protege la confidencialidad de los datos transmitidos a través de la red, evitando así la exposición de esa información de forma pública que pueda ser usada de manera inapropiada, nosotros nos encargamos de instalar este certificado en tu sitio o tienda online</p>
 </section>
 
 <!-- Footer -->
@@ -147,31 +134,5 @@ main_slider.style.height = window.innerHeight + 'px';
 <?php if($is_mobile){ ?>
 <script type="text/javascript" src="/js/animation-mobile.min.js?v=1435"></script>
 <?php } ?>
-
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-<script>
-	var typedTitle = new Typed('.animaTitle', {
-		strings: [
-			"Tu pagina web",
-			"Estrategía Digítal",
-			"Programacíon y soluciones a la medida",
-			"Creamos tu tienda online"
-		],
-		typeSpeed: 80,
-		backSpeed: 20,
-		// loop: true
-	});
-	// var typedDesc = new Typed('.animaDesc', {
-	// 	strings: [
-	// 		"Estás a un paso de tener la herramienta de presencia online y de ventas más importante.",
-	// 		"Un plan ideado para lograr tus objetivos comerciales.",
-	// 		"Para empresas",
-	// 		"Llega a un mercado más amplio."
-	// 	],
-	// 	typeSpeed: 10,
-	// 	backSpeed: 5,
-	// 	loop: true
-	// });
-</script>
 </body>
 </html>

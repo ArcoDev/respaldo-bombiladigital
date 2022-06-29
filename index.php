@@ -282,8 +282,8 @@ if($is_mobile){
 								<svg class="how__icon" alt="Asesoría | <?=$brand_name?>">
 									<use xlink:href="#svg-icon-asesoria"></use>
 								</svg>
-								<h3 class="how__title">Cuidamos el talento humano</h3>
-								<p>Equipo talentoso y multidiciplinario.</p>
+								<h3 class="how__title">Asesoría</h3>
+								<p>Tes escuchamos y asesoramos para brindarte la solución más adecuada.</p>
 							</div>
 						</div>
 						<div class="how__item--wrapper <?=$animation_type?>"
@@ -293,8 +293,8 @@ if($is_mobile){
 								<svg class="how__icon" alt="Empresa en línea | <?=$brand_name?>">
 									<use xlink:href="#svg-icon-online"></use>
 								</svg>
-								<h3 class="how__title">Somos una empresa en línea</h3>
-								<p>Presencial, nacional e internacional</p>
+								<h3 class="how__title">Empresa en línea</h3>
+								<p>Comunicación virtual y ágil para desarrollar tu página web.</p>
 							</div>
 						</div>
 						<div class="how__item--wrapper <?=$animation_type?>"
@@ -304,164 +304,8 @@ if($is_mobile){
 								<svg class="how__icon" alt="SEO | <?=$brand_name?>">
 									<use xlink:href="#svg-icon-seo"></use>
 								</svg>
-								<h3 class="how__title">Solucion a la <br>medida</h3>
-								<p>Por que cada empresa es diferente</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			
-
-			<section class="home__about">
-				<div class="anchor" id="quienes-somos"></div>
-				<div class="container">
-					<h2 class="animation-scroll-text <?=$animation_type?>"
-						data-init-animation="transform:translateX(-50px);opacity:0"
-						data-end-animation="transform:translateX(0px);opacity:1">¿Quiénes somos?</h2>
-					<p class="animation-scroll-text <?=$animation_type?>"
-						data-init-animation="transform:translateY(50px);opacity:0"
-						data-end-animation="transform:translateY(0px);opacity:1">
-						Bombilla Digital es una agencia creativa formada por un equipo de profesionales con más de 8
-						años de experiencia, ayudamos a nuestros clientes a ser relevantes en el mundo digital y a tener
-						presencia online para lograr sus objetivos comerciales.
-					</p>
-					<p class="animation-scroll-text <?=$animation_type?>"
-						data-init-animation="transform:translateY(50px);opacity:0"
-						data-end-animation="transform:translateY(0px);opacity:1">
-						Nuestra metodología brinda la certeza de implementar proyectos con éxito.
-					</p>
-					<p class="animation-scroll-text <?=$animation_type?>"
-						data-init-animation="transform:translateY(50px);opacity:0"
-						data-end-animation="transform:translateY(0px);opacity:1">
-						Nos apasiona desarrollar ideas disruptivas e innovadoras, contribuyendo a posicionar a México
-						como líder tecnológico.
-					</p>
-					<div class="about--wrapper">
-						<div class="about__item <?=$animation_type?>">
-							<div class="about__img">
-								<picture>
-									<source srcset="/images/content/ramiro-bombilla.webp" type="image/webp">
-									<source srcset="/images/content/ramiro-bombilla.jpg" type="image/jpeg">
-									<img src="/images/content/ramiro-bombilla.webp" alt="Ramiro García">
-								</picture>
-								<span class="orbit">
-									<span class="circle">
-										<span class="circle2">
-											<span class="circle3"></span>
-										</span>
-									</span>
-								</span>
-							</div>
-							<h4 class="about__title">Ramiro García</h4>
-						</div>
-						<div class="about__item <?=$animation_type?> bttm">
-							<div class="about__img">
-								<picture>
-									<source srcset="/images/content/lilia-bombilla.webp" type="image/webp">
-									<source srcset="/images/content/lilia-bombilla.jpg" type="image/jpeg">
-									<img src="/images/content/lilia-bombilla.webp" alt="Lilia Fernández">
-								</picture>
-								<span class="orbit reverse">
-									<span class="circle reverse">
-										<span class="circle2 reverse">
-											<span class="circle3"></span>
-										</span>
-									</span>
-								</span>
-							</div>
-							<h4 class="about__title">Lilia Fernández</h4>
-						</div>
-						<div class="about__item <?=$animation_type?>">
-							<div class="about__img">
-								<picture>
-									<source srcset="/images/content/han-bombilla.webp" type="image/webp">
-									<source srcset="/images/content/han-bombilla.jpg" type="image/jpeg">
-									<img src="/images/content/han-bombilla.webp" alt="Han the Pug">
-								</picture>
-								<span class="orbit">
-									<span class="circle">
-										<span class="circle2">
-											<span class="circle3"></span>
-										</span>
-									</span>
-								</span>
-							</div>
-							<h4 class="about__title">Han the Pug</h4>
-						</div>
-						<div class="about__item <?=$animation_type?> bttm">
-							<div class="about__img">
-								<picture>
-									<source srcset="/images/content/caro-bombilla.webp" type="image/webp">
-									<source srcset="/images/content/caro-bombilla.jpg" type="image/jpeg">
-									<img src="/images/content/caro-bombilla.webp" alt="Carolina">
-								</picture>
-								<span class="orbit orbit2">
-									<span class="circle">
-										<span class="circle2">
-											<span class="circle3"></span>
-										</span>
-									</span>
-								</span>
-							</div>
-							<h4 class="about__title">Carolina</h4>
-						</div>
-						<div class="about__item <?=$animation_type?>">
-							<div class="about__img">
-								<picture>
-									<source srcset="/images/content/mario-bombilla.webp" type="image/webp">
-									<source srcset="/images/content/mario-bombilla.jpg" type="image/jpeg">
-									<img src="/images/content/mario-bombilla.webp" alt="Mario Olivares">
-								</picture>
-								<span class="orbit reverse">
-									<span class="circle reverse">
-										<span class="circle2 reverse">
-											<span class="circle3"></span>
-										</span>
-									</span>
-								</span>
-							</div>
-							<h4 class="about__title">Mario Olivares</h4>
-						</div>
-					</div>
-					<div class="row-flex">
-						<div class="col-lg-6">
-							<h2 class="text-center">Misión</h2>
-							<p>Contribuir con los objetivos de nuestros clientes ofreciendo soluciones tecnologicas y
-								digitales a la medida que generen resultados.</p>
-						</div>
-						<div class="col-lg-6">
-							<h2 class="text-center">Visión</h2>
-							<p>Ser una empresa que destaque a nivel nacional por la eficacia de nuestros servicios, y
-								por la innovación de nuevos desarrollo y plataformas digitales.</p>
-						</div>
-						<div class="col-lg-12">
-							<h2 class="text-center">Hablidades del Equipo</h2>
-							<div class="row-flex">
-								<div class="col-lg-3">
-									<h3>Lenguajes de programación</h3>
-									<ul>
-										<li>PHP</li>
-										<li>JAVASCRIPT</li>
-									</ul>
-								</div>
-								<div class="col-lg-3">
-									<h3>Diseño gráfico UX/UI</h3>
-								</div>
-								<div class="col-lg-3">
-									<h3>Diseño de software</h3>
-								</div>
-								<div class="col-lg-3">
-									<h3>Plataformas que gestionamos</h3>
-									<ul>
-										<li>VTEX</li>
-										<li>SHOPIFY</li>
-										<li>MAGENTO</li>
-										<li>OPENCART</li>
-										<li>WOOCOMERCE</li>
-										<li>WORDPRESS</li>
-									</ul>
-								</div>
+								<h3 class="how__title">TE POSICIONAMOS EN BUSCADORES</h3>
+								<p>Generarás prospectos desde el inicio</p>
 							</div>
 						</div>
 					</div>
@@ -633,6 +477,132 @@ if($is_mobile){
 					</div>
 				</div>
 			</section>
+
+
+			<div class="anchor" id="portafolio"></div>
+			<h2 class="text-center">Portafolio</h2>
+			<section class="portafolio">
+				<div class="container-portafolio">
+					<div class="box-portafolio" >
+						<a href="./jyctech.php" target="_blank" rel="noopener">
+							<div class="header-portafolio">J&C Technology</div>
+							<div class="footer-portafolio">
+								<h2><span>J&C Technology</span><br> Mantenimiento</h2>
+								<a href="https://www.jyctech.net/" rel="noopener">
+									<img class="icon-url" src="./images/content/portafolio/icon-url.svg"
+										alt="Icon Cadena">
+									<p>www.jyctech.net</p>
+								</a>
+							</div>
+						</a>
+					</div>
+					<div class="box-portafolio">
+						<a href="./turborienta.php" target="_blank" rel="noopener">
+							<div class="header-portafolio">Turborienta</div>
+							<div class="footer-portafolio">
+								<h2><span>Turborienta</span><br>Orientación vocacional</h2>
+								<a href="https://www.jyctech.net/" rel="noopener">
+									<img class="icon-url" src="./images/content/portafolio/icon-url.svg"
+										alt="Icon Cadena">
+									<p>www.turborienta.com</p>
+								</a>
+							</div>
+						</a>
+					</div>
+					<div class="box-portafolio">
+						<a href="centro-calma.php" target="_blank" rel="noopener">
+							<div class="header-portafolio">Centro en calma</div>
+							<div class="footer-portafolio">
+								<h2><span>Centro en calma</span><br>Masajes a domicilio</h2>
+								<a href="https://www.centroencalma.com" rel="noopener">
+									<img class="icon-url" src="./images/content/portafolio/icon-url.svg"
+										alt="Icon Cadena">
+									<p>www.centroencalma.com</p>
+								</a>
+							</div>
+						</a>
+					</div>
+					<div class="box-portafolio">
+						<a href="silver.php" target="_blank" rel="noopener">
+							<div class="header-portafolio">Sergio SIlver</div>
+							<div class="footer-portafolio">
+								<h2><span>Sergio silver</span><br> Joyería</h2>
+								<a href="https://www.sergiosilver.com.mx" rel="noopener">
+									<img class="icon-url" src="./images/content/portafolio/icon-url.svg"
+										alt="Icon Cadena">
+									<p>www.sergiosilver.com.mx</p>
+								</a>
+							</div>
+						</a>
+					</div>
+					<div class="box-portafolio">
+						<a href="winbu.php" target="_blank" rel="noopener">
+							<div class="header-portafolio">Winbu</div>
+							<div class="footer-portafolio">
+								<h2><span>Winbu</span><br> Educación y desarrollo</h2>
+								<a href="https://www.winbu.mx/" rel="noopener">
+									<img class="icon-url" src="./images/content/portafolio/icon-url.svg"
+										alt="Icon Cadena">
+									<p>www.winbu.mx</p>
+								</a>
+							</div>
+						</a>
+					</div>
+					<div class="box-portafolio">
+						<a href="solog.php" target="_blank" rel="noopener">
+							<div class="header-portafolio">Solog</div>
+							<div class="footer-portafolio">
+								<h2><span>Solog</span><br> Soluciones logisticas y de empaque</h2>
+								<a href="https://www.solog.com.mx/" rel="noopener">
+									<img class="icon-url" src="./images/content/portafolio/icon-url.svg"
+										alt="Icon Cadena">
+									<p>www.solog.com.mx</p>
+								</a>
+							</div>
+						</a>
+					</div>
+					<div class="box-portafolio">
+						<a href="interconmutel.php" target="_blank"="noopener">
+							<div class="header-portafolio">Interconmutel</div>
+							<div class="footer-portafolio">
+								<h2><span>Interconmutel</span><br> Empresa de seguridad</h2>
+								<a href="https://www.interconmutel.com.mx/" rel="noopener">
+									<img class="icon-url" src="./images/content/portafolio/icon-url.svg"
+										alt="Icon Cadena">
+									<p>www.interconmutel.com.mx</p>
+								</a>
+							</div>
+						</a>
+					</div>
+					<div class="box-portafolio">
+						<a href="kalisal.php" target="_blank" rel="noopener">
+							<div class="header-portafolio">Kalisal</div>
+							<div class="footer-portafolio">
+								<h2><span>Kalisal</span><br> Distribudor de sal</h2>
+								<a href="https://www.kalisal.com/" rel="noopener">
+									<img class="icon-url" src="./images/content/portafolio/icon-url.svg"
+										alt="Icon Cadena">
+									<p>www.kalisal.com</p>
+								</a>
+							</div>
+						</a>
+					</div>
+					<div class="box-portafolio">
+						<a href="brans.php" target="_blank" rel="noopener">
+							<div class="header-portafolio">Brans</div>
+							<div class="footer-portafolio">
+								<h2><span>Brans</span><br> Fabricación de playeras</h2>
+								<a href="https://https://www.brans.com.mx/" rel="noopener">
+									<img class="icon-url" src="./images/content/portafolio/icon-url.svg"
+										alt="Icon Cadena">
+									<p>https://www.brans.com.mx</p>
+								</a>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+
 			<section class="home__comments">
 				<div class="container">
 					<h2 class="animation-scroll-text <?=$animation_type?>"
@@ -727,17 +697,6 @@ if($is_mobile){
 			backSpeed: 20,
 			// loop: true
 		});
-		// var typedDesc = new Typed('.animaDesc', {
-		// 	strings: [
-		// 		"Estás a un paso de tener la herramienta de presencia online y de ventas más importante.",
-		// 		"Un plan ideado para lograr tus objetivos comerciales.",
-		// 		"Para empresas",
-		// 		"Llega a un mercado más amplio."
-		// 	],
-		// 	typeSpeed: 10,
-		// 	backSpeed: 5,
-		// 	loop: true
-		// });
 	</script>
 </body>
 

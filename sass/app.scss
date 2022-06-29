@@ -2,10 +2,10 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 10rem 0 0 0;
+    padding: 2rem 0 0 0;
 
     @media screen and (min-width: 321px) and (max-width: 1023px) {
-        padding: 5rem 0;
+        padding: 1rem 0;
     }
 
     .container-portafolio {
@@ -170,6 +170,7 @@
                         font-size: 1rem;
                         width: 65%;
                         line-height: 17px;
+                        display: none;
                         @media screen and (min-width: 321px) and (max-width: 1023px) {
                             width: 100%;
                         }
